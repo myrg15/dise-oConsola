@@ -1,0 +1,112 @@
+body {
+
+    margin: 0;
+    padding: 0;
+
+    background-color:white;
+
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+}
+
+.black {
+    height: 10em;
+    width: 10em;
+    background-color: black;
+    border-radius: 0.2em;
+    margin-bottom: 2em;
+}
+
+#screen {
+    width: 10em;
+    height: 10em;
+    /*margin: auto;*/
+    background-size: cover;
+    /*justify-content: center;*/
+}    
+
+/*.red {
+    height: 10em;
+    width: 10em;
+
+    background-color: red;
+
+    border-radius: 0.2em;
+
+    margin-bottom: 2em;
+}*/
+
+/*.grey{
+    height: 10em;
+    width: 10em;
+
+    background-color:gray;
+
+    border-radius: 0.2em;
+
+    margin-bottom: 2em;
+    
+}*/
+
+.container-main{
+    width: 25em;
+    height: 40em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-size: cover;*/
+    background-color: darksalmon;
+    border-radius: 2em;
+    position: absolute;
+}
+
+#container-buttons {
+    height: 10em;
+    width: 40em;
+
+    background-color: gray;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#button1 {
+
+    height: 4em;
+    width: 4em;
+
+    border-radius: 50%;
+
+    background-color: black;
+}
+
+
+#button2 {
+
+    height: 4em;
+    width: 4em;
+
+    border-radius: 50%;
+
+    background-color:black;
+}
+
+#button3{
+
+    height: 4em;
+    width: 4em;
+
+    border-radius: 50%;
+
+    background-color:black;
+
+}
