@@ -1,5 +1,5 @@
 
-let pantalla = document.getElementById("screen");
+let pantalla = document.getElementById ("screen");
 
 document.addEventListener("click", (e)=>{
 
@@ -20,3 +20,4 @@ document.addEventListener("click", (e)=>{
     }
 
  });
+ 

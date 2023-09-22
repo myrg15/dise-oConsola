@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
 
-    background-color:white;
-
+    /*background-image: image();*/
+    background-color: chocolate;
     height: 100vh;
     width: 100vw;
 
@@ -16,21 +16,253 @@ body {
 
 }
 
-.black {
+/*.black {
     height: 10em;
     width: 10em;
     background-color: black;
     border-radius: 0.2em;
     margin-bottom: 2em;
+}*/
+
+.container-main{
+    width: 20em;
+    height: 35em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: fuchsia;
+    border-radius: 2em;
+    position: absolute;
+}
+
+.primerBorde{
+    height: ;
+    width: ;
+    background-color: blue;
+    border-radius: 5em;
 }
 
 #screen {
-    width: 10em;
-    height: 10em;
+    width: 12em;
+    height: 16em;
     /*margin: auto;*/
-    background-size: cover;
+    background-color: blueviolet;
     /*justify-content: center;*/
+    margin-bottom: 15em;
+    border-radius: 0em 0em 3em 0em;
+    position: absolute;
+    border: solid 2px black;
 }    
+
+.screen2{
+    height: 10em;
+    width: 13em;
+    background-color: black;
+    position: absolute;
+    margin-bottom: 15em;
+    border-radius: 1em;
+    /*background-image: url("/img/darksoulsprincipal.gif"); "buscar imagen"*/ 
+    background-size: cover;
+    background-position-y: -5px;
+    border: solid 4px white;
+}
+
+/* Teclas movimientos*/
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+    width: 3em;
+    height: 3em;
+    position: absolute;
+}
+
+.capa{
+    position: absolute;
+    height: 9em;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter: drop-shadow(3px 3px 3px #777);
+}
+
+.centro{
+    z-index: 2;
+    top: 3em;
+}
+
+.circulo-centro{
+    position: static;
+    background: #777;
+    border-radius: 100%;
+    margin: auto;
+    width: 75%;
+    height: 75%;
+    z-index: 3;
+}
+
+.up,
+.right,
+.down,
+.left,
+
+.centro {
+    background: #000;
+    padding: 12px;
+    border: 1px solid #222;
+    margin-top: 100px;
+    scale: .5;
+}
+
+.right {
+    top: 2em;
+    left: -2.25em;
+}
+
+.left {
+    top: 2em;
+    right: 5.7em;
+}
+
+.down {
+    top: 3.7em;
+    left: -4em;
+}
+
+.up {
+
+    left: -4em;
+    top: 0.3em;
+
+}
+
+.centro{
+    left: -4em;
+    top: 2em;
+
+}
+
+.triangulo {
+    position: absolute;
+    bottom: 16px;
+    right: 8px;
+    margin: auto;
+    width: 65%;
+    height: 65%;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+    border-bottom: solid 20px #777;
+
+}
+
+.triangulo-derec {
+    position: absolute;
+    bottom: 8px;
+    right: 0px;
+    margin: auto;
+    width: 65%;
+    height: 65%;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+    border-bottom: solid 20px #777;
+    transform: rotate(90deg);
+}
+
+.triangulo-izq {
+    position: absolute;
+    bottom: 8px;
+    left: 1px;
+    margin: auto;
+    width: 65%;
+    height: 65%;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+    border-bottom: solid 20px #777;
+    transform: rotate(-90deg);
+}
+
+.down-triangle {
+    position: absolute;
+    bottom: 0px;
+    right: 8px;
+    margin: auto;
+    width: 65%;
+    height: 65%;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+    border-bottom: solid 20px #777;
+    transform: rotate(180deg);
+}
+
+.button1 {
+
+    height:2em;
+    width: 2em;
+    background-color: rgb(215, 244, 27);
+    border-radius: 50%;
+    border: solid 1px rgb(109, 109, 109);
+    top: 19.13em;
+    right: 5.6em;
+    box-shadow: 0em 0.1em 1em rgba(0, 0, 0, 0.7);
+    
+    }
+    
+    
+.button2 {
+    
+    height:2em;
+    width: 2em;
+    background-color: rgb(44, 44, 44);
+    border-radius: 50%;
+    border: solid 1px rgb(109, 109, 109);
+    top: 18em;
+    right: 3.2em;
+    box-shadow: 0em 0.1em 1em rgba(0, 0, 0, 0.7);
+    
+    }
+
+
+    .buttonSelect {
+
+        position: absolute;
+        height: 12px;
+        width: 50px;
+        background-color:  rgb(44, 44, 44);
+        border-radius: 10px;
+        border: solid 1px black;
+        box-shadow: 0em 0.1em 1em rgba(20, 20, 20, 0.6);
+        top: 25em;
+        left: 5em;
+        
+    }
+    
+    
+    .buttonStart {
+    
+        position: absolute;
+        height: 12px;
+        width: 50px;
+        background-color:  #ffffff;
+        border-radius: 10px;
+        border: solid 1px black;
+        box-shadow: 0em 0.1em 1em rgba(0, 0, 0, 0.6);
+        top: 25em;
+     left: 11em;
+    
+        
+    }
+    
+
+
 
 /*.red {
     height: 10em;
@@ -55,58 +287,10 @@ body {
     
 }*/
 
-.container-main{
-    width: 25em;
-    height: 40em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*background-size: cover;*/
-    background-color: darksalmon;
-    border-radius: 2em;
-    position: absolute;
-}
-
-#container-buttons {
+/*#container-buttons {
     height: 10em;
     width: 40em;
-
     background-color: gray;
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-}
-
-#button1 {
-
-    height: 4em;
-    width: 4em;
-
-    border-radius: 50%;
-
-    background-color: black;
-}
-
-
-#button2 {
-
-    height: 4em;
-    width: 4em;
-
-    border-radius: 50%;
-
-    background-color:black;
-}
-
-#button3{
-
-    height: 4em;
-    width: 4em;
-
-    border-radius: 50%;
-
-    background-color:black;
-
-}
+    /*display: flex;*/
+    /*justify-content: space-around;
+    align-items: center;*/
