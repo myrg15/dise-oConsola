@@ -51,11 +51,11 @@ body {
     left: 5.6em;
 }
 
-.screenimagAntz {
+.screenimaganimeAmigosMovimiento {
     height: 10em;
     width: 13em;
     /*background-color: gainsboro;*/
-    background-image: url('/imag/antz.jpg');
+    background-image: url('/imag/animeAmigosMovimiento.gif');
     position: absolute;
     margin-bottom: 15em;
     background-size: cover;
@@ -65,7 +65,7 @@ body {
     left: 5.6em;
 }
 
-.screenimaganimeVariosJuntos {
+.screenimaganimeVariosJuntos{
     height: 10em;
     width: 13em;
     /*background-color: gainsboro;*/
