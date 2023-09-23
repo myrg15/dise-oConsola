@@ -23,7 +23,8 @@ body {
     border-radius: 2em;
     position: absolute;
 }
-#screen {
+
+#screen {/*segunda pantalla fondo negro*/
     width: 17em;
     height: 21em;
     background-color: black;
@@ -36,10 +37,11 @@ body {
     box-shadow: 0em 0.1em 1em rgba(0, 0, 0, 0.7);
 }
 
-.screen2 {
+.screen2 { /*pantalla con imagen representacion apagada*/
     height: 10em;
     width: 13em;
     background-color: gainsboro;
+    /*background-image: url('');*/
     position: absolute;
     margin-bottom: 15em;
     background-size: cover;
@@ -48,6 +50,72 @@ body {
     top: 3.9em;
     left: 5.6em;
 }
+
+.screenimagAntz {
+    height: 10em;
+    width: 13em;
+    /*background-color: gainsboro;*/
+    background-image: url('/imag/antz.jpg');
+    position: absolute;
+    margin-bottom: 15em;
+    background-size: cover;
+    background-position-y: -5px;
+    border: solid 4px white;
+    top: 3.9em;
+    left: 5.6em;
+}
+
+.screenimaganimeVariosJuntos {
+    height: 10em;
+    width: 13em;
+    /*background-color: gainsboro;*/
+    background-image: url('/imag/animeVariosJuntos.jpg');
+    position: absolute;
+    margin-bottom: 15em;
+    background-size: cover;
+    background-position-y: -5px;
+    border: solid 4px white;
+    top: 3.9em;
+    left: 5.6em;
+}
+
+.screenimaganimeUnaSola {
+    height: 10em;
+    width: 13em;
+    /*background-color: gainsboro;*/
+    background-image: url('/imag/animeUnaSola.jpg');
+    position: absolute;
+    margin-bottom: 15em;
+    background-size: cover;
+    background-position-y: -5px;
+    border: solid 4px white;
+    top: 3.9em;
+    left: 5.6em;
+}
+
+.screenimagpokemonAnimado{
+    height: 10em;
+    width: 13em;
+    /*background-color: gainsboro;*/
+    background-image: url('/imag/pokemonAnimado.gif');
+    position: absolute;
+    margin-bottom: 15em;
+    background-size: cover;
+    background-position-y: -5px;
+    border: solid 4px white;
+    top: 3.9em;
+    left: 5.6em;
+}
+
+
+/*.black {
+    height: 10em;
+    width: 10em;
+    background-color: black;
+    border-radius: 0.2em;
+    margin-bottom: 2em;
+}*/
+
 
 /* Teclas movimientos*/
 
@@ -64,7 +132,6 @@ div {
     height: 3em;
     position: absolute;
 }
-
 .capa {
     position: absolute;
     height: 9em;
@@ -249,7 +316,7 @@ background-color: rgb(44, 44, 44);
     color: black;
 }
 
-.buttonSelect {
+.buttonSelect { /*tramo inferior izquierdo */
     position: absolute;
     height: 10px;
     width: 40px;
@@ -262,7 +329,7 @@ background-color: rgb(44, 44, 44);
 
 }
 
-.buttonStart {
+.buttonStart { /*tramo inferior derecho */
     position: absolute;
     height: 10px;
     width: 40px;
@@ -286,6 +353,7 @@ background-color: rgb(44, 44, 44);
     right: 1.7em;
 
 }
+
 .subtitulo2{
     width: 15em;
     height: 3em;
@@ -320,5 +388,3 @@ background-color: rgb(44, 44, 44);
     top: 95px;
     left: 35px;
 }
-
-
