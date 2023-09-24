@@ -53,24 +53,37 @@ document.addEventListener("click", (e)=>{
 });*/
 
 function selectA(){
-    let screen = document.getElementsByClassName("screenimaganimeAmigosMovimiento");
-    screen.classList.add("buttonSelect");
+    let screen = document.getElementById("screenimaganimeAmigosMovimiento");
+    screen.classList.add(".buttonSelect");
 }
 
 function clickbuttonA(){
-    let screen = document.getElementsByClassName("screenimaganimeVariosJuntos");
-    screen.classList.add("button2");
+    let screen = document.getElementById("screenimaganimeVariosJuntos");
+    screen.classList.add(".button2");
 }
 
 function clickbuttonB(){
-    let screen = document.getElementsByClassName("screenimaganimeAmigosMovimiento");
-    screen.classList.add("button1");
+    let screen = document.getElementById("screenimaganimeAmigosMovimiento");
+    screen.classList.add(".button1");
 }
 
-
-function powerOn(){
-    let screen = document.getElementsByClassName("screen2");
+/*function powerOn(){
+    let screen = document.querySelector('.screen2');
    // let on = document.getElementById("idpowerlight");
-    screen.classList.add("on");
+    screen.classList.toggle('on');
     //on.classList.add("powershadow")
 }
+
+function clickbuttonB() {
+    var buttonB = document.querySelector('.button1');
+    buttonB.classList.toggle('screenimaganimeAmigosMovimiento');
+  }
+  
+  function clickbuttonA() {
+    var buttonA = document.querySelector('.button2');
+    buttonA.classList.toggle('screenimaganimeVariosJuntos');
+  }*/
+
+
+
+
