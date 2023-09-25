@@ -73,27 +73,27 @@ function startA(){
 
 
 function powerOn(){
-    let screen = document.querySelector('.on');
+    let screen = document.querySelector('.screen2');
     screen.classList.toggle('.screen2');
    }
 
 function clickbuttonB() {
-    let buttonB = document.querySelector('.button1');
-    buttonB.classList.toggle('screenimaganimeAmigosMovimiento');
+    let screen = document.querySelector('.screen2');
+    screen.classList.toggle('.screenimaganimeAmigosMovimiento');//debo asignar la imagen 
   }
   
 function clickbuttonA() {
-    let buttonA = document.querySelector('.button2');
-    buttonA.classList.toggle('screenimaganimeVariosJuntos');
+    let buttonA = document.querySelector('.screen2');
+    buttonA.classList.toggle('.screenimaganimeVariosJuntos');
   }
 
 function selectA() {
-    let buttonSele = document.querySelector('.buttonSelect');
+    let buttonSele = document.querySelector('.screen2');
     buttonSele.classList.toggle('.screenimaganimeUnaSola');
   }
   
 function startA() {
-    let buttonSta = document.querySelector('.buttonStart');
+    let buttonSta = document.querySelector('.screen2');
     buttonSta.classList.toggle('.screenimagpokemonAnimado');
   }
 
