@@ -289,7 +289,6 @@ background-color: rgb(44, 44, 44);
     left: 9em;
     cursor: pointer;
     text-align: center;
-    
 }
 
 .buttonStart { /*tramo inferior derecho */
@@ -358,4 +357,25 @@ background-color: rgb(44, 44, 44);
 
 .power{
     background-color: gainsboro;    
+}
+
+.select{
+    position: absolute;
+    height: 10px;
+    width: 40px;
+    border: solid 1px
+    box-shadow: 0em 0.1em 1em rgba(20, 20, 20, 0.6);
+    top:29.7em;
+    left: 9em;
+    text-align:center;
+}
+.start{
+    position: absolute;
+    height: 10px;
+    width: 40px;
+    border: solid 1px
+    box-shadow: 0em 0.1em 1em rgba(20, 20, 20, 0.6);
+    top:29.7em;
+    left: 13.2em;
+    text-align:center;
 }
