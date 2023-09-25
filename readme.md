@@ -30,5 +30,5 @@ Botones Select y Start
 
 ---
 ### Directorio
-Puedes descargar el repositorio o visualizar el proyecto haciendo click aquí:
+Puedes descargar el repositorio o visualizar el proyecto haciendo click aquí: https://github.com/myrg15/myrg15.github.io-dise-oConsola.git
 
