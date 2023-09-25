@@ -51,71 +51,29 @@ body {
     left: 5.6em;
 }
 
-.screenimaganimeAmigosMovimiento {
-    /*height: 10em;
-    width: 13em;
-    background-color: gainsboro;*/
+.animeAmigosMovimiento {
+    
     background-image: url('/imag/animeAmigosMovimiento.gif');
-    /*position: absolute;
-    margin-bottom: 15em;
-    background-size: cover;
-    background-position-y: -5px;
-    border: solid 4px white;
-    top: 3.9em;
-    left: 5.6em;*/
+    
 }
 
-.screenimaganimeVariosJuntos{
-    /*height: 10em;
-    width: 13em;
-    background-color: gainsboro;*/
+.animeVariosJuntos{
+    
     background-image: url('/imag/animeVariosJuntos.jpg');
-    /*position: absolute;
-    margin-bottom: 15em;
-    background-size: cover;
-    background-position-y: -5px;
-    border: solid 4px white;
-    top: 3.9em;
-    left: 5.6em;*/
+    
 }
 
-.screenimaganimeUnaSola {
-    /*height: 10em;
-    width: 13em;
-    background-color: gainsboro;*/
+.animeUnaSola {
+    
     background-image: url('/imag/animeUnaSola.jpg');
-    /*position: absolute;
-    margin-bottom: 15em;
-    background-size: cover;
-    background-position-y: -5px;
-    border: solid 4px white;
-    top: 3.9em;
-    left: 5.6em;*/
+    
 }
 
-.screenimagpokemonAnimado{
-    /*height: 10em;
-    width: 13em;
-    background-color: gainsboro;*/
+.pokemonAnimado{
+
     background-image: url('/imag/pokemonAnimado.gif');
-    /*position: absolute;
-    margin-bottom: 15em;
-    background-size: cover;
-    background-position-y: -5px;
-    border: solid 4px white;
-    top: 3.9em;
-    left: 5.6em;*/
+ 
 }
-
-
-/*.black {
-    height: 10em;
-    width: 10em;
-    background-color: black;
-    border-radius: 0.2em;
-    margin-bottom: 2em;
-}*/
-
 
 /* Teclas movimientos*/
 
@@ -132,6 +90,7 @@ div {
     height: 3em;
     position: absolute;
 }
+
 .capa {
     position: absolute;
     height: 9em;
@@ -225,7 +184,7 @@ div {
     top: 11.9em;
     background-color:black;
     
-    }
+}
 
 .circulo-centro{
 background-color: rgb(44, 44, 44);
@@ -333,7 +292,6 @@ background-color: rgb(44, 44, 44);
     
 }
 
-
 .buttonStart { /*tramo inferior derecho */
     position: absolute;
     height: 10px;
@@ -375,7 +333,6 @@ background-color: rgb(44, 44, 44);
     /*background-image: url('/imag/game_boy_color_logo.webp');*/
 }
 
-
 .on { /*power on*/
     cursor: pointer;
     width: 15px;
@@ -397,4 +354,8 @@ background-color: rgb(44, 44, 44);
     color: white;
     top: 95px;
     left: 35px;
+}
+
+.power{
+    background-color: gainsboro;    
 }

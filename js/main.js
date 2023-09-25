@@ -1,17 +1,49 @@
+function powerOn() {
+    let screen = document.getElementById("screenInter");
+    screen.classList.add("power");
+}
+
+function clickbuttonB() {
+    let screen = document.getElementById("screenInter");
+    screen.classList.add("animeAmigosMovimiento");
+}
+
+function clickbuttonA() {
+    let screen = document.getElementById("screenInter");
+    screen.classList.add("animeVariosJuntos");
+}
+
+function selectA() {
+    let screen = document.getElementById("screenInter");
+    screen.classList.add("animeUnaSola");
+}
+
+function startA() {
+    let screen = document.getElementById("screenInter");
+    screen.classList.add("pokemonAnimado");
+}
+
+
+
 //Probando asignar eventos a los botones
-/*document.addEventListener('click', (e)=>{
-    let pantalla = document.getElementById ('.screen2');
-    if(e.target.getElementById === '.power'){
-        pantalla.classList.add('.power');
+/*let on = document.getElementById ('on');
+    on.addEventListener('click', (e)=>{
+    if(e.target.getElementById === 'on'){
+        on.innerText= ('scree2');//deberia hacerle document... a screen2 para poder traerlo aqui
+        }else{
+            on.innerText = ""
+        }
+
     }
 });
-        // pantalla.style.backgroundColor = "red";
+
+    // pantalla.style.backgroundColor = "red";
    // } else if (e.target.id === 'button2') {
         // pantalla.style.backgroundColor = "grey";
      //   pantalla.style.backgroundImage = "url('imag/animeVariosJuntos.jpg')";
     //} else if (e.target.id === 'button3'){
       //  pantalla.style.backgroundImage = "url('imag/animeUnaSola.jpg')";
-     
+
  document.addEventListener('click', (e)=>{
     let buttonA = document.getElementById ('screenimaganimeAmigosMovimiento');
     if (e.target.getElementById === '.button2'){
@@ -72,14 +104,14 @@ function startA(){
 //classList.toggle (botón cambien de pantalla al hacer clic)
 
 
-function powerOn(){
+/*function powerOn(){
     let screen = document.querySelector('.screen2');
     screen.classList.toggle('.screen2');
    }
 
 function clickbuttonB() {
     let screen = document.querySelector('.screen2');
-    screen.classList.toggle('.screenimaganimeAmigosMovimiento');//debo asignar la imagen 
+    screen.classList.toggle.url('/imag/animeAmigosMovimiento.gif');//debo asignar la imagen 
   }
   
 function clickbuttonA() {
@@ -98,5 +130,14 @@ function startA() {
   }
 
 
+  /*const heart = document.getElementById('heart');//este corazon dentro del parentesis esta en una etiqueta en html
+    heart.addEventListener('click', funtion(){
+        console.log(heart);
+        if (heart === 'corazon') {
+            heart.innerText= "corazon"
 
+        }else{
+            heart.innerText = "corazon"
+        }
 
+    });*/
